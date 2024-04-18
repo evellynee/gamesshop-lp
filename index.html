@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Games</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+
+    <link rel="shortcut icon" type="imagex/png" href="img/icons8-controle-32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-4">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-2">Code Games</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav id="menu-navegacao" class="navbar-collapse collapse justify-content-end">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre"><i class="bi bi-house-door"></i>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#news"> <i class="bi bi-newspaper me-1"></i>
+                            Notícias
+                        </a>
+
+                    </li>
+                    <li class="nav-item fw-bold">
+
+                        <a class="nav-link" href="#jogos">
+                            <i class="bi bi-controller me-1"></i>
+                            Jogos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold ">
+
+                        <a class="nav-link" href="#contact">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contato
+                        </a>
+
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-scroll="true">
+        <section id="sobre">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="img/slide1.jpg" alt="slide1">
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <img src="img/slide2.webp" alt="slide2">
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <img src="img/slide3.jpg" alt="slide3">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+
+            <div class="pt-5 pb-5 ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="img/frente-stand.jpeg" class="d-block w-100 rounded " alt="frente stand">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title pb-2">Sobre <span class="text-colored">Code Games</span></h2>
+                            <p>Bem-vindo ao nosso site de jogos, onde a diversão está sempre a um clique de distância!
+                                Navegue por uma vasta seleção de jogos emocionantes e mergulhe em aventuras épicas,
+                                desafios estratégicos e competições emocionantes.
+
+                                Somos uma equipe dedicada a entusiastas de jogos, apaixonados por proporcionar
+                                entretenimento de alta qualidade para jogadores de todas as idades. Fundada com a missão
+                                de criar uma comunidade vibrante e acolhedora, estamos comprometidos em oferecer
+                                experiências de jogo envolventes e inovadoras.
+                            </p>
+                            <h3 class="section-title pb-2">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                Localizada no coração da cidade, nossa sede é um centro vibrante de criatividade e
+                                inovação. Aqui, nossa equipe talentosa trabalha incansavelmente para trazer os melhores
+                                jogos até você. Estamos sempre buscando novas maneiras de surpreender e encantar
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Últimas <span class="text-colored">notícias</span></h2>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="img/vinicius-jr.webp" alt="vinicr7" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-bank2"></i>
+                            Vini Jr embaixador PS5.
+                        </h3>
+                        <p>“Play sempre me trouxe alegria e me manteve perto da minha família, dos amigos e dos fãs.
+                            Então, como o mais novo PlayStation Playmaker, quando tô em campo ou com o meu PlayStation,
+                            jogar não tem limites!”, escreveu Vini Jr.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="img/thelastnewa.webp" alt="vinicr7" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-alarm"></i>
+                            Nova temporada The Last Of Us
+                        </h3>
+                        <p>O fantástico mundo das séries já tem uma nova queridinha em 2023: “The Last of Us”. O
+                            primeiro episódio da produção da HBO Max estreou neste domingo (15) e já ganhou o coração do
+                            público. A série é inspirada e baseada na franquia de jogos eletrônicos de mesmo nome, que é
+                            exclusiva da PlayStation e que já levou mais de 200 prêmios.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="img/sony.webp" alt="sony" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-graph-down-arrow"></i>
+                            Queda no lucro da Sony
+                        </h3>
+                        <p>A queda ocorre no momento em que as duas empresas lidam com a atual escassez global de chips
+                            e apenas algumas semanas depois que a Microsoft, fabricante do Xbox, anunciou planos de
+                            adquirir a Activision Blizzard em um acordo de grande sucesso no valor de quase US$ 70
+                            bilhões.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="jogos" class="pt-3">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pb-3">Nossos <span class="text-colored">Jogos</span></h2>
+                </div>
+
+                <div class="row">
+
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colum nav-jogos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#residenteveil"
+                                class="fw-bold text-start nav-link text-colored active">Resident Evil</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#the-last"
+                                class="fw-bold text-start nav-link text-colored">The Last Of Us</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#spiderman"
+                                class="fw-bold text-start nav-link text-colored">Spider Man</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#gow"
+                                class="fw-bold text-start nav-link text-colored">God Of War</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#unchated"
+                                class="fw-bold text-start nav-link text-colored">Uncharted</button>
+                        </nav>
+                    </aside>
+
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div id="residenteveil" class="tab-pane active">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="img/residente2.png" alt="redident2">
+                                        <h5 class="text-colored fw-bold mt-2">Resident Evil 2</h5>
+                                        <p>
+                                         Lançamento 2019 .
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img/residentevil3.jpeg" alt="redident3">
+                                        <h5 class="text-colored fw-bold mt-2">Resident Evil 3</h5>
+                                        <p>
+                                            Lançamento 2020.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img/residente4.jpeg" alt="redident4">
+                                        <h5 class="text-colored fw-bold mt-2">Resident Evil 4</h5>
+                                        <p>
+                                            Lançamento 2023.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img/residente5.jpg" alt="redident5">
+                                        <h5 class="text-colored fw-bold mt-2">Resident Evil 5</h5>
+                                        <p>
+                                            Lançamento 2009.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img/residente6.webp" alt="redident6">
+                                        <h5 class="text-colored fw-bold mt-2">Resident Evil 6</h5>
+                                        <p>
+                                            Lançamento 2012.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img/residente7.jpeg" alt="redident7">
+                                        <h5 class="text-colored fw-bold mt-2">Resident Evil Biohazard</h5>
+                                        <p>
+                                            Lançamento 2017.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img/residente8.png" alt="redident8">
+                                        <h5 class="text-colored fw-bold mt-2">Resident Evil Villge</h5>
+                                        <p>
+                                            Lançamento 2022.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="the-last" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="img/the-last-1.png" alt="the-last-1">
+                                        <h5 class="text-colored fw-bold mt-2">The Last Of Us 1</h5>
+                                        <p>
+                                            Lançamento 2013.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img/the-last-2.png" alt="the-last-2">
+                                        <h5 class="text-colored fw-bold mt-2">The Last Of Us 2 </h5>
+                                        <p>
+                                            Lançamento 2020.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="spiderman" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="img/miranha1.png" alt="miranha1">
+                                        <h5 class="text-colored fw-bold mt-2">Spider Man 1</h5>
+                                        <p>
+                                            Lançamento 2018.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img/miranha2.avif" alt="miranha2">
+                                        <h5 class="text-colored fw-bold mt-2">Spider Man 2 </h5>
+                                        <p>
+                                            Lançamento 2023.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img/minhara3.avif" alt="miranha3">
+                                        <h5 class="text-colored fw-bold mt-2">Spider Man Miles Morales</h5>
+                                        <p>
+                                            Lançamento 2020.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="gow" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="img/Go1.png" alt="Go1">
+                                        <h5 class="text-colored fw-bold mt-2">God Of War 1</h5>
+                                        <p>
+                                            Lançamento 2005.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img/gow2.png" alt="gow2">
+                                        <h5 class="text-colored fw-bold mt-2">God Of War 2 </h5>
+                                        <p>
+                                            Lançamento 2007.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img/Gow3.png" alt="gow3">
+                                        <h5 class="text-colored fw-bold mt-2">God Of War 3 </h5>
+                                        <p>
+                                            Lançamento 2010.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img/gow4.png" alt="gow4">
+                                        <h5 class="text-colored fw-bold mt-2">God Of War 2018 </h5>
+                                        <p>
+                                          Lançamento 2018.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img/gow5.jpg" alt="gow5">
+                                        <h5 class="text-colored fw-bold mt-2">God Of War Ragnarok</h5>
+                                        <p>
+                                            Lançamento 2022.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="unchated" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="img/unchated1.jpeg" alt="unchated1">
+                                        <h5 class="text-colored fw-bold mt-2">Uncharted 1</h5>
+                                        <p>
+                                            Lançamento 2001.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img/unchated2.png" alt="unchated2">
+                                        <h5 class="text-colored fw-bold mt-2">Unchated 2 </h5>
+                                        <p>
+                                            Lançamento 2009.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img/unchated3.jpg" alt="unchated3">
+                                        <h5 class="text-colored fw-bold mt-2">Uncharted 3 </h5>
+                                        <p>
+                                            Lançamento 2011.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img/uncharted4.jpg" alt="gow4">
+                                        <h5 class="text-colored fw-bold mt-2">Uncharted 4 </h5>
+                                        <p>
+                                            Lançamento 2016.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img/unchatedll.jpeg" alt="gow5">
+                                        <h5 class="text-colored fw-bold mt-2">Uncharted Lost Legacy</h5>
+                                        <p>
+                                            Lançamento 2022.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title  text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3 fw-bold text-colored">
+                                <label class="form-label" for="nome">Seu Nome</label>
+                                <input class="form-control" type="text" id="nome" name="nome">
+                            </div>
+
+                            <div class="mb-3 fw-bold text-colored">
+                                <label class="form-label" for="email">Seu Email</label>
+                                <input class="form-control" type="email" id="email" name="email">
+                            </div>
+
+                            <div class="mb-3 fw-bold text-colored">
+                                <label class="form-label" for="telefone">Seu Telefone (opcional)</label>
+                                <input class="form-control" type="tel" id="telefone" name="telefone">
+                            </div>
+
+                            <div class="mb-3 fw-bold text-colored">
+                                <label class="form-label" for="mensagem">Sua mensagem</label>
+                                <textarea class="form-control" name="mensagem" id="mensagem"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn fw-bold">
+                                Enviar
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="https://www.instagram.com/evellynees/">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Tec City , 0 , Cidade Plays , nº 123
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <div class="footer">
+        <footer class="text-center fw-bold p-3">
+            &copy; Todos os direitos reservador a | Code Tech - 2024
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
